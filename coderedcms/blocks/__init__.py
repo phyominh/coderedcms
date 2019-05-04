@@ -63,5 +63,5 @@ LAYOUT_STREAMBLOCKS = [
         ('card', CardBlock()),])
     ),
     ('html', blocks.RawHTMLBlock(icon='code', classname='monospace', label=_('HTML'))),
-    ('column', GridBlock(CONTENT_STREAMBLOCKS)),
+    ('row', GridBlock(CONTENT_STREAMBLOCKS)),
 ]
