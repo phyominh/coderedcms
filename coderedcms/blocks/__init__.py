@@ -68,7 +68,7 @@ LAYOUT_STREAMBLOCKS = [
         ('card', CardBlock()),])
     ),
     ('html', blocks.RawHTMLBlock(icon='code', classname='monospace', label=_('HTML'))),
-]
+] + CONTENT_STREAMBLOCKS
 
 STREAMFORM_FIELDBLOCKS = [
     ('sf_singleline', CoderedStreamFormCharFieldBlock(group=_('Fields'))),
